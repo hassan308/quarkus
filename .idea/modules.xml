@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/quarkus.iml" filepath="$PROJECT_DIR$/.idea/quarkus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hassoback.iml" filepath="$PROJECT_DIR$/.idea/modules/hassoback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hassoback.main.iml" filepath="$PROJECT_DIR$/.idea/modules/hassoback.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hassoback.test.iml" filepath="$PROJECT_DIR$/.idea/modules/hassoback.test.iml" />
     </modules>
   </component>
 </project>

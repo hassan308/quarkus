@@ -1,0 +1,21 @@
+package com.example.DI;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import javax.annotation.PostConstruct;
+
+@Controller
+public class MainController {
+
+    private final CarService carService;
+    @Autowired
+    public MainController(CarService carService) {
+        this.carService = carService;
+    }
+
+    public String printa() {
+        // Använd customerService beanen för att skriva ut ett meddelande
+        return carService.printa();
+    }
+}
